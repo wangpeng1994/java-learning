@@ -25,4 +25,4 @@ values (2, 1, 2000);
 insert into match(id, user_id, score)
 values (3, 2, 500);
 insert into match(id, user_id, score)
-values (4, 3, 3000);
+values (4, 3, 300);
