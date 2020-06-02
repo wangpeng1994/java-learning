@@ -18,7 +18,7 @@ public class HelloController {
     @Autowired
     private RankService rankService;
 
-    @RequestMapping("/")
+    @RequestMapping("/rankData")
     @ResponseBody
     public Object search() {
         return rankService.getRank();
